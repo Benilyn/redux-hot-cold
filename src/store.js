@@ -1,5 +1,5 @@
 import {createStore} from 'redux';
 
-import {} from './reducers';
+import {reduxHotCold} from './reducers';
 
-export default createStore();
+export default createStore(reduxHotCold);
