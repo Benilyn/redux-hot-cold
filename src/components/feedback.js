@@ -1,4 +1,6 @@
 import React from 'react';
+import {connect} from 'react-redux';
+import {addFeedback} from '../actions';
 
 import './feedback.css';
 
